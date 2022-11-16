@@ -1,11 +1,11 @@
-package org.camunda.cherry.operations;
+package io.camunda.cherry.operations;
 
 import io.camunda.zeebe.client.api.response.ActivatedJob;
 import io.camunda.zeebe.client.api.worker.JobClient;
 import io.camunda.zeebe.spring.client.exception.ZeebeBpmnError;
-import org.camunda.cherry.definition.AbstractWorker;
-import org.camunda.cherry.definition.BpmnError;
-import org.camunda.cherry.definition.RunnerParameter;
+import io.camunda.cherry.definition.AbstractWorker;
+import io.camunda.cherry.definition.BpmnError;
+import io.camunda.cherry.definition.RunnerParameter;
 import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
@@ -35,7 +35,7 @@ public class SetVariablesWorker extends AbstractWorker {
     private static final String CST_FUNCTION_LOCALDATE = "localdate";
     private static final String CST_FUNCTION_LOCAL_TIME = "LocalTime";
     private static final String CST_FUNCTION_ZONED_DATE_TIME = "ZonedDateTime";
-    private static final String INPUT_OPERATIONS = "org/camunda/cherry/operations";
+    private static final String INPUT_OPERATIONS = "io/camunda/cherry/operations";
     private static final String INPUT_ANYTHING = "*";
     private static final String OUTPUT_RESULT = "*";
 
