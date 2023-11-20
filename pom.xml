@@ -14,7 +14,7 @@
     <maven.compiler.source>17</maven.compiler.source>
     <zeebe.version>8.0.3</zeebe.version>
     <cherry-framework.version>2.0.0</cherry-framework.version>
-    <connector-core.version>0.2.1</connector-core.version>
+    <connector-core.version>0.23.0</connector-core.version>
     <connector-runtime.version>0.2.2</connector-runtime.version>
 
     <junit.jupiter.version>5.9.0</junit.jupiter.version>
